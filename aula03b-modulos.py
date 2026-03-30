@@ -1,9 +1,12 @@
 # Nota Escolar - Aula
-nota_final = 5.0
+nota_final = 5.9
 
-if nota_final < 6:
+if nota_final < 4:
     print(f"Reprovado")
 else:
-    print(f"Aprovado")
-
+    if nota_final < 6:
+      print(f"Recuperação")
+    else:
+       print(f"Aprovado")
+       
 print("FIM!")
